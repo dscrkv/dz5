@@ -1,0 +1,209 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My styles */
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container div {
+	outline: 2px solid rgb(0, 0, 0);
+}
+
+.first,
+.second,
+.third {
+	font-size: 0;
+}
+
+.first {
+	background: rgb(121, 77, 129)204, 0, 255);
+}
+
+.first > div {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	font-size: 20px;
+}
+
+.second {
+	background: rgb(118, 177, 118);
+}
+
+.second > div {
+	display: inline-block;
+	width: 800px;
+	font-size: 20px;
+}
+
+.second > div + div {
+	width: 400px;
+}
+.second_part_one > div {
+	height: 200px;
+}
+
+.second_part_two > div {
+	height: 133.33px;
+}
+
+.third {
+	background-color: rgb(127, 134, 192);
+}
+
+.third > div {
+	display: inline-block;
+	font-size: 20px;
+}
+.third_part_one {
+	width: 400px;
+	height: 400px;
+}
+
+.third_part_two {
+	width: 800px;
+}
+
+.third_subgroup_one {
+	height: 200px;
+}
+
+.third_subgroup_two {
+	font-size: 0;
+}
+
+.third_subgroup_two > div {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	font-size: 20px;
+}
+
+.third_subgroup_two > div + div {
+	height: auto;
+}
+
+.third_subgroup_two>div>div {
+	height: 100px;
+}
